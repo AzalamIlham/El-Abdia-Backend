@@ -7,7 +7,7 @@ import cookieParser from "cookie-parser";
 const app = express() 
 
 app.use(cors({
-    origin: ["http://stock-management-el-abdia.onrender.com"],
+    origin: ["https://stock-management-el-abdia.onrender.com"],
     methods: ['GET', 'POST', 'PUT', "DELETE"],
     credentials: true
 }))
